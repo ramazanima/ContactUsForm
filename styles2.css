@@ -1,0 +1,31 @@
+body{
+    background: #fff;
+    margin: 1%;
+}
+
+h1{
+    font-family: "Roboto";
+    text-align: center;
+    margin: 5%;
+}
+
+p{
+    font-family: "Roboto";
+    line-height: 1.5;
+    margin: 1% 5%; 
+}
+
+
+.form-group{
+    margin: 5%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+.author{
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+}
+

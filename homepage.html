@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA Consultation Services</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="container contact-form">
+            <div class="contact-image">
+                <img class="bc-logo" src="assets/bc-logo.png" alt="Berea College Logo">
+            </div>
+
+            <br><br><br>
+            <p>Welcome to our TA consultation services! We understand that you may have questions or concerns about your assignments in your courses, and our TAs are here to help you navigate them. To make the most of our consultation, please fill out the contact form at the bottom of the page. </p>
+            <p>We kindly ask that you submit your consultation request at least 1 hour in advance to allow our TAs ample time to review your request and prepare a thorough response. </p>
+            <p>Please provide as much detail as possible. Need be, you can include a picture of your code in your request.  </p>
+            <p>We are committed to making your experience as smooth as possible and look forward to helping you succeed in your academic journey!</p>
+           
+            <h3>Drop Us a Message</h3>
+            
+            <form method="POST" action="https://formsubmit.co/ramazaniam20@gmail.com" enctype="multipart/form-data">
+                <!-- Honeypot to catch spammers -->
+                <input type="text" name="_honey" style="display:none">
+
+                <!--Disable security captcha questions-->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="hidden" name="_next" value="thanks.html">
+               
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="Student&nbsp;Name" class="form-control" placeholder="Your Full Name *" value="" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="Student&nbsp;Email&nbsp;Address" class="form-control" placeholder="Your Berea Email *" value="" required />
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="Student&nbsp;Course&nbsp;ID" class="form-control" placeholder="Your Course ID *" value="" required />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="Query" class="form-control" placeholder="Your Question *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+
+                        <div class="form-group fileAttach">
+                            <input type="file" name="attachment"  accept="image/png, image/jpeg">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="submit" name="Submitted" class="btnContact" value="Submit" />
+                </div>
+
+            </form>
+            
+        </div>  
+        <i class="far fa-copyright author">&nbspCreated by Ali Ramazani | By a Berean for Bereans |</i> 
+        
+        <a href="bug-form.html" class=" bug-report">click here to report a bug&nbsp<i class="fa fa-bug"></i> </i></a> 
+        
+        <!--To disable the right-click to avoid source code viewing-->
+        <script>
+            document.addEventListener('contextmenu', event => event.preventDefault());
+        </script>
+     
+</body>
+</html>
